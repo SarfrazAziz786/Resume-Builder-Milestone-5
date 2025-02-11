@@ -9,7 +9,11 @@ document.getElementById("resumeForm")?.addEventListener('submit', function (even
     let educationElement = document.getElementById('edu') as HTMLInputElement;
     let experienceElement = document.getElementById('experience') as HTMLInputElement;
     let skillElement = document.getElementById('skill') as HTMLInputElement;
+    
     const userNameElement = document.getElementById("userName") as HTMLInputElement;
+
+
+
 
     if (profilePicInput && nameElement && emailElement && phoneElement && educationElement && experienceElement && skillElement && userNameElement) {
         
